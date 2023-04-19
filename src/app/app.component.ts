@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'generator-css';
+  color: string = '#000';
+  backgroundColor: string = '#fff';
+  border: string = '1px solid #ccc';
+  boxShadow: string = 'none';
+  buttonText: string = 'Przycisk';
+  inputPlaceholder: string = 'Placeholder';
 }
